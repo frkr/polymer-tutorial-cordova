@@ -1,6 +1,6 @@
 call cordova create polymer-tutorial-cordova org.polymer.cordova Polymer
 cd polymer-tutorial-cordova
-echo PUT THIS ON INDEX=www/finished/ >> config.xml
+echo PUT THIS ON INDEX=finished/index.html >> config.xml
 rmdir /S /Q www
 git clone -b 0.5.4-take2 https://github.com/Polymer/polymer-tutorial.git www
 cd www
